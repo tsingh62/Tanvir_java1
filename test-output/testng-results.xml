@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6476" started-at="2019-03-06T23:48:19Z" finished-at="2019-03-06T23:48:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6476" started-at="2019-03-06T23:48:19Z" finished-at="2019-03-06T23:48:26Z">
+      <class name="PageObjectModel.RegistrationTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:PageObjectModel.RegistrationTest@7cd62f43]" name="setup" is-config="true" duration-ms="3754" started-at="2019-03-06T23:48:19Z" finished-at="2019-03-06T23:48:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="userRegistration()[pri:0, instance:PageObjectModel.RegistrationTest@7cd62f43]" name="userRegistration" duration-ms="2694" started-at="2019-03-06T23:48:23Z" finished-at="2019-03-06T23:48:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistration -->
+      </class> <!-- PageObjectModel.RegistrationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

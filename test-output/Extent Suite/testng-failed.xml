@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Extent Suite]">
+  <listeners>
+    <listener class-name="ExtentReporting.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="extentReportTest(failed)">
+    <classes>
+      <class name="ExtentReporting.LoginTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="CheckNoofEmplayeesEnabled"/>
+          <include name="captureScreen"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- ExtentReporting.LoginTest -->
+    </classes>
+  </test> <!-- extentReportTest(failed) -->
+</suite> <!-- Failed suite [Extent Suite] -->

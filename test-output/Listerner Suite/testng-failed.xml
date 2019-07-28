@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Listerner Suite]">
+  <listeners>
+    <listener class-name="TestNGListeners.ListernerClass"/>
+  </listeners>
+  <test thread-count="5" name="listernerTest(failed)">
+    <classes>
+      <class name="TestNGListeners.LoginTest">
+        <methods>
+          <include name="loginByFacebook"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestNGListeners.LoginTest -->
+    </classes>
+  </test> <!-- listernerTest(failed) -->
+</suite> <!-- Failed suite [Listerner Suite] -->
